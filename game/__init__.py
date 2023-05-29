@@ -1,0 +1,5 @@
+FPS = 60
+SOLID_COLOR = "purple"
+WIDTH = 500
+HEIGHT = 600
+TITLE = "TEST"
