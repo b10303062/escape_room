@@ -12,8 +12,6 @@ class Player(pg.sprite.Sprite):
         self.image = pg.Surface((Player.WIDTH, Player.HEIGHT))
         self.image.fill(Player.BASE_COLOR)
         self.rect = self.image.get_rect()
-        self.rect.x = 200
-        self.rect.y = 200
         self.rect.centerx = game.WIDTH / 2
         self.rect.bottom = game.HEIGHT - 10
 
